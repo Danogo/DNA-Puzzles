@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext');
+
+/*Navigation bar*/
+.navbar-default {
+	background: #00BF73; /*medium green*/
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #DFFFF2; /*light green*/
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: #DFFFF2;
+	background: #009F60; /*darker medium green*/
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover {
+	color: #DFFFF2;
+	background: #00DF86; /*lighter medium green*/
+}
+
+.navbar>.container .navbar-brand {
+	color: #DFFFF2;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #DFFFF2;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: #00DF86;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #DFFFF2;
+}
+
+ .navbar-nav {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*Landing page content*/
+body {
+	font-family: "Lato";
+}
+
+.container-fluid {
+	height: 100vh;
+	background: url("img/puzzle.jpg");/* Image is licensed under Creative Commons Zero*/
+	background-position: center;
+	background-size: cover;
+}
+
+.content {
+	text-align: center;
+	padding-top:20%;
+	color: #00BF73; 
+	text-shadow: 0px 4px 3px rgba(0, 0, 0,0.4),
+                 0px 8px 13px rgba(0, 0, 0,0.1),
+                 0px 18px 23px rgba(0, 0, 0,0.1);
+}
+
+.content h1 {
+	font-size: 7em;
+	font-weight: 700;
+}
+
+.content h3 {
+	font-size: 2em;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0,0.2);
+				
+}
+
+.content hr {
+	width: 450px;
+    border-top: 1px solid #00BF73;
+    border-bottom: 1px solid rgba(0, 255, 153,0.2);
+}
+
+.btn-default {
+	color: #DFFFF2;
+	background-color: #00BF73;
+	border-color: #00BF73;
+}
+
+.btn-default:hover {
+	color: #DFFFF2;
+	background-color: #00DF86;
+}
+
+@media (min-width: 1170px) {
+	.content {
+		padding-top: 16%;
+	}
+}
